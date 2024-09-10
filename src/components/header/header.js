@@ -4,9 +4,9 @@ import Search from "@/assets/search";
 
 function HeaderComponent() {
   return (
-    <div className="w-full h-auto relative bg-gradient-to-b bg-red-950 py-8 ">
+    <div className="w-full h-auto relative bg-gradient-to-b bg-red-950 py-3 md:py-8 ">
       <div className="w-full h-full relative z-30 flex justify-between items-center flex-row">
-        <div className="font-bold text-xl w-4/12 text-center animate md:text-4xl">
+        <div className="font-bold text-lg w-4/12 text-center animate md:text-4xl">
           <span className="cursor-pointer">A</span>
           <span className="cursor-pointer">D</span>
           <span className="cursor-pointer">E</span>
@@ -20,7 +20,7 @@ function HeaderComponent() {
             <li className="animate w-2/12 md:w-auto cursor-pointer font-bold text-base md:text-2xl h-auto">
               Post
             </li>
-            <li className="animate w-2/12 md:w-auto cursor-pointer font-bold text-xl md:text-2xl h-auto ">
+            <li className="animate w-2/12 md:w-auto cursor-pointer font-bold text-xl md:text-2xl h-5 md:h-7 flex items-center ">
               <Search />
             </li>
           </ul>
