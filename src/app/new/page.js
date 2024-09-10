@@ -1,5 +1,11 @@
+import NewPostComponent from "@/components/newPost/newPost";
+
 function NewPost() {
-  return <div>NewPost</div>;
+  return (
+    <div>
+      <NewPostComponent />
+    </div>
+  );
 }
 
 export default NewPost;
